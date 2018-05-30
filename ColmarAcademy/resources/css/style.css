@@ -1,0 +1,116 @@
+/* CSS Stylesheet */
+
+/* DESKTOP */
+  /* Common Styles */
+    body {
+      color: black;
+      max-width: 100%;
+      height: auto;
+      font-family: Helvetica;
+      padding: 0;
+      margin: 0;
+    }
+
+  /* Top Section Styles */
+    .top header {
+      height: 64px;
+      margin: 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 24px;
+      padding-right: 24px;
+    }
+
+    .top header #logo {
+      height: 32px;
+      font-size: 11px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .top header #logo h1 {
+      color: Grey;
+      font-weight: lighter;
+    }
+
+    .top header #logo h1 a {
+      color: black !IMPORTANT;
+      font-weight: bold;
+    }
+
+    .top header #navigation span a {
+      color: inherit;
+      padding-left: 16px;
+      text-decoration: none;
+    }
+
+    .top header #navigation span a:hover {
+      color: darkGrey;
+    }
+
+    .top .banner {
+      margin: 0;
+      padding: 0;
+      background-color: lightGrey;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    .top .banner img {
+      width: 60%;
+      height: auto;
+      padding: 32px 24px;
+    }
+
+    .top .banner #right {
+      width: 30%;
+    }
+
+    .top .banner #right h1,
+    .top .banner #right h2 {
+      color: #494949;
+    }
+
+    .top .banner #right p a {
+      background-color: #494949;
+      border: none;
+      color: white;
+      padding: 8px 32px;
+      justify-content: center;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+    }
+
+  /* Main Section Styles */
+    .main .exhibit #left video {
+      width: 100%;
+    }
+
+  /* Bottom Section Styles */
+
+/* DESKTOP */
+  /* Common Styles */
+
+  /* Top Section Styles */
+
+  /* Main Section Styles */
+
+  /* Bottom Section Styles */
+
+/* MOBILE */
+  /* Common Styles */
+
+  /* Top Section Styles */
+
+  /* Main Section Styles */
+
+  /* Bottom Section Styles */
